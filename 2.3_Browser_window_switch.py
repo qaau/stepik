@@ -23,7 +23,7 @@ try:
     button = browser.find_element_by_xpath("//button[@type='submit']").click()
 
 finally:
-    # успеваем скопировать код за 30 секунд
+    ## успеваем скопировать код за 30 секунд
     time.sleep(10)
-    # закрываем браузер после всех манипуляций
+    ## закрываем браузер после всех манипуляций
     browser.quit()
